@@ -3,7 +3,7 @@
 Comprehensive collection of snippets that have been collected from
 many people.
 
-Included modes are:
+Included modes from rejeep are:
 
 * clojure-mode
 * css-mode
@@ -20,3 +20,15 @@ Included modes are:
 * ruby-mode
 * sass-mode
 * sh-mode
+
+Other modes:
+
+* latex-mode (for linguistics)
+* sql-mode
+
+Add to yout .emacs: 
+
+(setq yas-snippet-dirs
+      (append '("~/.emacs.d/snippets/genomorro"
+		"~/.emacs.d/snippets/rejeep"
+		) yas-snippet-dirs))
