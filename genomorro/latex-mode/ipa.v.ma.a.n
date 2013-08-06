@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : æ vocal media abierta anterior no redondeada
+#key : ipa.v.ma.a.n
+# --
+\ae

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : ʌ vocal semiabierta posterior no redondeada
+#key : ipa.v.sa.p.n
+# --
+\textturnv

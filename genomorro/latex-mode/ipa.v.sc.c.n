@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : ɘ vocal semicerrada central no redondeada
+#key : ipa.v.sc.c.n
+# --
+\textreve

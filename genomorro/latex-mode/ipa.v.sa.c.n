@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : ɜ vocal semiabierta central no redondeada
+#key : ipa.v.sa.c.n
+# --
+\textrevepsilon

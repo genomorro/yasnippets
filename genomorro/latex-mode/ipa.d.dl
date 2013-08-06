@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Descenso lingual
+#key : ipa.d.dl
+# --
+\textlowering{${1:text}}

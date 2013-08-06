@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Sonora estridente
+#key : ipa.d.se
+# --
+\textsubtilde{${1:text}}

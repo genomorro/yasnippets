@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : ɑ vocal abierta posterior no redondeada
+#key : ipa.v.a.p.n
+# --
+\textscripta

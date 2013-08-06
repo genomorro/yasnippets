@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: gloss
+# key: gloss
+# --
+\ex ${1:<sentence>}
+\gll $1 \\
+${2:gloss} \\
+\trans `${3:translation}'

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Base de la legua avanzada
+#key : ipa.d.bla
+# --
+\textadvancing{${1:text}}

@@ -1,0 +1,6 @@
+
+# -*- mode: snippet -*-
+#name : ǂ clic palatoalveolar
+#key : ipa.c.pa
+# --
+\textdoublebarpipe

@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: template
+# key: template
+# --
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+\title{${1:document title}}
+\author{Edgar Uriel Dom\\'inguez Espinoza}
+\date{\today}
+\maketitle
+
+$0
+
+\end{document}

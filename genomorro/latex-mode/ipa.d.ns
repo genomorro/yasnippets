@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : No silábica
+#key : ipa.d.ns
+# --
+\textsubarch{${1:text}}

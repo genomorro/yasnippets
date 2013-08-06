@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Avanzada
+#key : ipa.d.av
+# --
+\textsubplus{${1:text}}

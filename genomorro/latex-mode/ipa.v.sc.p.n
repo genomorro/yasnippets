@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : ɤ vocal semicerrada posterior no redondeada
+#key : ipa.v.sc.p.n
+# --
+\textramshorns

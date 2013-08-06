@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Sonorizada
+#key : ipa.d.so
+# --
+\textsubwedge{${1:text}}

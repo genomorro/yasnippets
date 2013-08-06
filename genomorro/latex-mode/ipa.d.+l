@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Más labializada
+#key : ipa.d.+l
+# --
+\textsubrhalfring{${1:text}}
