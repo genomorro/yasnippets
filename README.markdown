@@ -28,7 +28,7 @@ Other modes:
 
 Add to yout `.emacs`: 
 
-(setq yas-snippet-dirs
-      (append '("~/.emacs.d/snippets/genomorro"
-		"~/.emacs.d/snippets/rejeep"
-		) yas-snippet-dirs))
+ (setq yas-snippet-dirs
+       (append '("~/.emacs.d/snippets/genomorro"
+		 "~/.emacs.d/snippets/rejeep"
+		 ) yas-snippet-dirs))
