@@ -26,7 +26,7 @@ Other modes:
 * latex-mode (for linguistics)
 * sql-mode
 
-Add to yout .emacs: 
+Add to yout `.emacs`: 
 
 (setq yas-snippet-dirs
       (append '("~/.emacs.d/snippets/genomorro"
