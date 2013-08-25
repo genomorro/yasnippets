@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : africadas o doble articulación
-#key : ipa
-# --
-\texttoptiebar{${1:text}}

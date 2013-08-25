@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : Menos labializada
-#key : ipa
-# --
-\textsublhalfring{${1:text}}

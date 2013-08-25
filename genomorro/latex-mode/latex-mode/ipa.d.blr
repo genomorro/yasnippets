@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : Base de la lengua retraída
-#key : ipa
-# --
-\textretractin{${1:text}}

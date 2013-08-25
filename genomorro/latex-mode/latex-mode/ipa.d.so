@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : Sonorizada
-#key : ipa
-# --
-\textsubwedge{${1:text}}

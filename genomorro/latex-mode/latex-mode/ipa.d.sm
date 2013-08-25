@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : Sonora mate
-#key : ipa
-# --
-\textsubumlaut{${1:text}}

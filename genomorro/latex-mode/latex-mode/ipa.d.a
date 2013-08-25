@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : apical
-#key : ipa
-# --
-\textinvsubbridge{${1:text}}

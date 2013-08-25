@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-#name : ɪ vocal media cerrada media central no redondeada
-#key : ipa
-# --
-\textsci
