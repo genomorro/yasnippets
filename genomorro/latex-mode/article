@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: template
-# key: template
+# name: article template
+# key: article
 # --
 \documentclass[letterpaper,12pt]{article}
 
@@ -12,7 +12,7 @@
 \begin{document}
 
 \title{${1:document title}}
-\author{Edgar Uriel Dom\\'inguez Espinoza}
+\author{Edgar Uriel Domínguez Espinoza\\\Escuela Nacional de Antropología e Historia}
 \date{\today}
 \maketitle
 
