@@ -4,6 +4,7 @@
 # --
 \documentclass[letterpaper,12pt]{article}
 
+\def\spanishoptions{mexico}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
