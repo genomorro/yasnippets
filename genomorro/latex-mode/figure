@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: figure template
+# key: figure
+# --
+%You need: \usepackage{graphicx}
+\begin{figure}[${1:h:here; t:top; b:bottom; p:page; !ht:default}]
+  \centering
+  \includegraphics[width=\linewidth]{${2:image name}}
+  \caption[${3:short caption for index}]{${4:long caption}}
+  \label{fig:${5:id}}
+\end{figure}

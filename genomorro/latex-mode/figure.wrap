@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Wrap text around figure template
+# key: figure
+# --
+%You need: \usepackage{graphicx}
+%You need: \usepackage{wrapfig}
+\begin{wrapfigure}{${1:r:right; l:left}}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.45\textwidth]{${2:image name}}
+  \end{center}
+  \caption[${3:short caption for index}]{${4:long caption}}
+  \label{fig:${5:id}}
+\end{wrapfigure}

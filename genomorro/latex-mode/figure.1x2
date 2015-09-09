@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: two figures in a row template
+# key: figure
+# --
+%You need: \usepackage{graphicx}
+%You need: \usepackage[lofdepth]{subfig}
+\begin{figure}[${1:h:here; t:top; b:bottom; p:page; !ht:default}]
+  \centering
+  \subfloat[${2:short subfig1 caption for index}][${3:long subfig1 caption}]{
+    \includegraphics[width=0.45\linewidth]{${4:subfig1 name}}
+    \label{subfig:${5:id1}}
+  \subfloat[${6:short subfig2 caption for index}][${7:long subfig2 caption}]{
+    \includegraphics[width=0.45\linewidth]{${8:subfig2 name}}
+    \label{subfig:${9:id2}}
+  \caption[${10:global short caption for index}]{${11:global caption}}
+  \label{fig:${12:global id}}	     
+\end{figure}
+%Cite: \ref{fig:$12} \subref{subfig:$5} \subref{subfig:$9}
