@@ -6,6 +6,7 @@
 
 \usetheme{Boadilla}
 
+\def\spanishoptions{mexico}
 \usepackage[spanish]{babel}
 \usepackage{lmodern}
 \usepackage[utf8]{inputenc}
@@ -13,7 +14,7 @@
 \title{${1:<document title>}}
 \subtitle{${2:<document subtitle>}}
 \author{Edgar Uriel Domínguez Espinoza}
-\institute[${3:<initials>}]{${4:full name institute}\\\\\${3:$(yas-substr text "[^: ]*")}}
+\institute[${3:<initials>}]{${4:full name institute}\\\\\$3}
 \date{\today}
 
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
