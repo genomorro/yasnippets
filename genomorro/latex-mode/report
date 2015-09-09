@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: report template
+# key: report
+# --
+\documentclass[letterpaper,12pt]{article}
+
+\def\spanishoptions{mexico}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+\title{${1:document title}}
+\author{Edgar Uriel Domínguez Espinoza\\\Escuela Nacional de Antropología e Historia}
+\date{\today}
+\maketitle
+%abstract here
+\tableofcontents
+\listoffigures
+\listoftables
+
+$0
+
+\end{document}
