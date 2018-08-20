@@ -19,4 +19,6 @@
 
 $0
 
+% \bibliographystyle{apalike}
+% \bibliography{${2:bibliography file}}
 \end{document}
