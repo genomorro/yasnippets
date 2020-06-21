@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: table template
+# key: table
+# --
+%% You need: \usepackage{booktabs}
+%% for use \toprule and \bottomrule
+#+ORGTBL: SEND ${1:name} orgtbl-to-latex
+$0
+
+\begin{table}[${2:h:here; t:top; b:bottom; p:page; !ht:default}]
+  \centering
+  % BEGIN RECEIVE ORGTBL $1
+  % END RECEIVE ORGTBL $1
+  \caption[${3: short caption fo index}]{${4: long caption}}
+  \label{tbl:$1}
+\end{table}
